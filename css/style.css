@@ -60,6 +60,17 @@ header h1 {
     padding-bottom: 20px;
 }
 
+div.img-info {
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+.card img {
+    height: 100%;
+    float: left;
+}
+
 main > div{
     padding-left: 10px;
     padding-right: 10px;
@@ -69,4 +80,29 @@ main > div{
     width: 100%;
     height: 100%;
     background-color: #0F0E16;
+    text-align: left;
+}
+
+.img-info {
+    display: inline-block;
+    height: 100%;
+    padding: 10px 10px;
+    
+}
+
+p.partner-name {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+p.partner-role {
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+a.partner-email {
+    color: #46A7D7;
+    font-size: 13px;
 }
