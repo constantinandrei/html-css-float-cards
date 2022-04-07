@@ -6,7 +6,7 @@
 
 body {
     background-color: #FFFFFE;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 16px;
 }
 
@@ -27,14 +27,14 @@ header {
 }
 
 header p {
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
 header h1 {
     color: #E5326F;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: bolder;
 }
 
 .container {
@@ -92,20 +92,21 @@ main > div{
 .img-info {
     display: inline-block;
     height: 100%;
-    padding: 10px 10px;
+    padding: 7px 10px;
     
 }
 
 p.partner-name {
     font-size: 16px;
+    font-weight: bold;
     margin: 0;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 p.partner-role {
     font-size: 13px;
     margin: 0;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 a.partner-email {
